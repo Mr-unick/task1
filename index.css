@@ -63,7 +63,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     background-image: url("./polygon-scatter-haikei\ \(2\).svg");
-    background-size: cover;
+    
 }
 .left-box{
     width: 600px;
@@ -133,3 +133,22 @@ h2{
     align-items: flex-start;
     flex-direction: column;
 }
+@media only screen and (max-width: 600px) {
+    img {
+       
+       height: 60%;
+    }
+    .left-box{
+       height: 50vh;
+       
+    }
+    .right-box{
+        
+        height: 50vh;
+       justify-content: flex-start;
+       align-items: flex-start;
+      
+    
+    }
+
+  }
