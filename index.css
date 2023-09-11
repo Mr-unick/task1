@@ -63,6 +63,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     background-image: url("./polygon-scatter-haikei\ \(2\).svg");
+    background-size: cover;
 }
 .left-box{
     width: 600px;
@@ -118,7 +119,7 @@ h2{
     background-color: #0056b3;
   }
   img {
-   
+   background-size: cover;
     transition: transform 0.3s ease;
   }
   
