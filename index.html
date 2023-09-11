@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <main>
+        
+        <section class="landing-page">
+            <div class="left-box animate__animated animate__fadeInLeft"> <h1 class=" head1">STEP INTO STYLE !</h1>
+            <h2 >Elevate Your Shoe Game: Unleash Your Sole Style with Us</h2>
+        <button>Explore More</button></div>
+            <div class="right-box animate__animated animate__fadeInRight">
+               
+                    <img src="product.png" alt="Image 1">
+                
+            </div>
+        </section>
+        <section class="contact-page">
+           
+            <form id="contact-form" method="post" action="process.php">
+                <h2>Contact Us</h2>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+
+               
+                <input type="email" id="email" name="email" placeholder="Email" required>
+
+              
+                <textarea id="message" name="message" placeholder="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="confirmation" style="display: none;">
+                Thank you for your message!
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        &copy; 2023 Your Company
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
